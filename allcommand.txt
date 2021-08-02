@@ -7,4 +7,7 @@
 7. git config --global user.email "Your email"
 8. git push -u origin master (To push)
 9. git pull origin master (To pull all changes)
-10. git diff Git command.txt(file name)
+10. git diff allcommand.txt(file name) (To see the changes before staged)
+11. git diff --staged allcommand.txt (To see all changes after staged)
+12. git reset allcommand.txt (To unstaged changes)
+13. git checkout allcommand.txt (To undo the  changes in file)
