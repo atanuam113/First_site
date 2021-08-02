@@ -5,9 +5,25 @@
 5. git log (To see what change is happen in the file)
 6. git config --global user.name "Your name" (Author details)
 7. git config --global user.email "Your email"
-8. git push -u origin master (To push)
-9. git pull origin master (To pull all changes)
-10. git diff allcommand.txt(file name) (To see the changes before staged)
-11. git diff --staged allcommand.txt (To see all changes after staged)
-12. git reset allcommand.txt (To unstaged changes)
-13. git checkout allcommand.txt (To undo the  changes in file)
+8. git remote add origin git@github.com:atanuam113/First_site.git (To upload file into git for remote access)
+9. git push -u origin master (To push)
+10. git pull origin master (To pull all changes)
+11. git diff allcommand.txt(file name) (To see the changes before staged)
+12. git diff --staged allcommand.txt (To see all changes after staged)
+13. git reset allcommand.txt (To unstaged changes)
+14. git checkout allcommand.txt (To undo the  changes in file)
+15. git branch (To check the present branch of the project)
+16. git branch login (To build a new branch(login is the name of the branch))
+17. git checkout login(switch to login(branch name) branch)
+	(Now you can change the entire code to whatever you want)
+18. git commit -m "Version name"
+19. git push origin login(Push code to new branch in github) 
+20. git merge login(push login(branch name) to master)
+21. git branch -d login(branch name) (To delete branch from storage)
+22. git push origin --delete login (Delete branch from github)
+Some Points:
+1.	git add -A (Stages All)
+	git add . (Stages new and modified), without deleted
+	git add -u (stages modified and deleted, Without new)
+2.
+	git clone git@github.com:atanuam113/First_site.git . (To clone code at afile 	location(Use . for making new folder))
