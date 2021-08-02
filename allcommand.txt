@@ -7,4 +7,4 @@
 7. git config --global user.email "Your email"
 8. git push -u origin master (To push)
 9. git pull origin master (To pull all changes)
-ALL Updated
+10. git diff Git command.txt(file name)
