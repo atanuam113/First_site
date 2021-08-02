@@ -1,3 +1,7 @@
 1. git status(To check the status of the code(changed/unchanged))
 2. git init
-3.
+3.git add . (To move it to staging area)
+4. git commit -m "version " (To commit)
+5. git log (To see what change is happen in the file)
+6. git config --global user.name "Your name" (Author details)
+7. git config --global user.email "Your email"
