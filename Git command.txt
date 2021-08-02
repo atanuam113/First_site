@@ -5,3 +5,5 @@
 5. git log (To see what change is happen in the file)
 6. git config --global user.name "Your name" (Author details)
 7. git config --global user.email "Your email"
+8. git push -u origin master (To push)
+9. git pull origin master (To pull all changes)
